@@ -1,0 +1,11 @@
+<h1>Cocktails list </h1>
+
+<div class="container">
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+      <%= render 'components/card', cocktail: cocktail %>
+    <% end %>
+  </div>
+  <div class="link"><%= link_to "add a new cocktail", new_cocktail_path%>
+  </div>
+</div>
