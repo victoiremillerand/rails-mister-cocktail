@@ -3,3 +3,44 @@
 // @import "dashboard";
 // @import "profile";
 // @import "map";
+.home {
+  background-color : rgb(51, 51, 51);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+  padding-left: 20px;
+}
+
+.title {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.flexy {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.flexy h1 {
+  padding: 20px;
+}
+
+.image {
+  padding-top: 20px;
+}
