@@ -1,13 +1,21 @@
 <div class="container home text-center">
-  <div class="flexy">
-    <h1 class="title">Cocktails list </h1>
-    <div class="image"><%= image_tag "logo.png", alt: "logo", width: 100 %></div>
+
+  <div class="banner">
+    <div class="flexy">
+      <div class="image"><%= image_tag "logo.png", alt: "logo", width: 100 %></div>
+    </div>
+    <div>
+        <span id="banner-typed-text"></span>
+    </div>
+    <div class="link add">
+      <%= link_to '<i class="fas fa-plus"></i>'.html_safe, new_cocktail_path%>
+    </div>
   </div>
+
   <div class="row">
     <% @cocktails.each do |cocktail| %>
       <%= render 'components/card', cocktail: cocktail %>
     <% end %>
   </div>
-  <div class="link add"><%= link_to "add a new cocktail", new_cocktail_path%>
-  </div>
+
 </div>

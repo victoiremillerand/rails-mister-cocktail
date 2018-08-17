@@ -1,4 +1,4 @@
-<div class="container home">
+<div class="container home cocktailpages text-center">
   <h1><%=@cocktail.name%></h1>
 
   <ul>
@@ -11,8 +11,8 @@
     <% end %>
   </ul>
 
-  <p> <%= link_to "add a dose", new_cocktail_dose_path(@cocktail) %></p>
+  <p> <%= link_to '<i class="fas fa-plus"></i>'.html_safe, new_cocktail_dose_path(@cocktail) %></p>
 
 
-  <p> <%= link_to "back", cocktails_path %></p>
+  <p> <%= link_to '<i class="fas fa-chevron-left"></i>'.html_safe, cocktails_path %></p>
 </div>

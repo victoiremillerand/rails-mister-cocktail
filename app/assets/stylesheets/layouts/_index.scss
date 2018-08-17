@@ -9,7 +9,17 @@
   height: 100%;
   position: relative;
   color: white;
-  padding-left: 20px;
+
+}
+
+.banner {
+  background-color : rgb(13, 17, 14);
+  width: 100%;
+  margin: none;
+}
+
+.cocktailpages {
+  height: 100vh;
 }
 
 .title {
@@ -33,8 +43,8 @@ a:hover {
 
 .add {
   position: absolute;
-  bottom: 40px;
   right: 40px;
+  top : 120px;
 }
 
 .flexy h1 {
@@ -42,5 +52,10 @@ a:hover {
 }
 
 .image {
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
 }
