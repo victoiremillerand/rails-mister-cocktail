@@ -3,7 +3,7 @@ import Typed from 'typed.js';
 function loadDynamicBannerText() {
   new Typed('#banner-typed-text', {
     strings: ["Choose your cocktail", "THE cocktail"],
-    typeSpeed: 50,
+    typeSpeed: 100,
     loop: true
   });
 }
