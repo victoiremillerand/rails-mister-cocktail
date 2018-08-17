@@ -1,5 +1,5 @@
 <% if cocktail.photo.url.nil? %>
-  <% url = 'https://kitt.lewagon.com/placeholder/cities/random' %>
+  <% url = 'https://source.unsplash.com/random' %>
 <% else %>
   <% url = cl_image_path(cocktail.photo, height: 300, width: 400, crop: :fill) %>
 <% end %>
